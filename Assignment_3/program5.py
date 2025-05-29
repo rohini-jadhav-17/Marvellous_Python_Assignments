@@ -14,7 +14,7 @@ def ListPrime(Data):
         if(MarvellousNum.ChkPrime(iNo)):
             iSum = iSum + iNo
             primeData.append(iNo)
-    return iSum, primeData   
+    return iSum, primeData
 
 def main():
     print("Enter number of elements :")
